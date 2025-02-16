@@ -40,6 +40,11 @@ try {
                 <input type="hidden" name="id" value="<?= $tracker['tracker_ID'] ?>" />
                 
                 <div class="mb-3">
+                    <label for="Username" class="form-label">Name</label>
+                    <input type="text" name="Username" class="form-control" value="<?= $tracker['Username'] ?>" required />
+                </div>
+
+                <div class="mb-3">
                     <label for="food" class="form-label">Food</label>
                     <input type="number" name="food" class="form-control" value="<?= $tracker['Food'] ?>" required />
                 </div>
